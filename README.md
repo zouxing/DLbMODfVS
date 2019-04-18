@@ -64,3 +64,11 @@
   --detections experiments/detections.pkl \
   --output-dir experiments \
   ```
+
+## 成果展現
+
+請注意，以下影片只包含結果展現，如果您需要包括產品應用、產品特色之類更詳細的資訊請點擊報名表上給予的影片連結，謝謝！
+
+<p align="center">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6-TI9M423KU" target="_blank"><img src="http://img.youtube.com/vi/6-TI9M423KU/0.jpg"  alt="D" width="500" height="281" border="10" /></a>
+</p>
