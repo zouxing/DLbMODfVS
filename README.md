@@ -11,13 +11,13 @@
     	
         	
                
-<div style="text-align: center">
-<img src=" https://raw.githubusercontent.com/zouxing/DLbMODfVS/master/markdown/%E6%A7%8B%E6%83%B32.jpg" width="637" height="358"/>
-</div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/zouxing/DLbMODfVS/master/markdown/%E6%A7%8B%E6%83%B32.jpg" width="637" height="358"  >
+</p>
 
-<center>
+<p align="center">
 圖一
-</center>
+</p>
 
 
 ## 項目應用類型與範圍
@@ -30,13 +30,13 @@
   
   	
 
-<div style="text-align: center">
-<img src=" https://raw.githubusercontent.com/zouxing/DLbMODfVS/master/markdown/%E6%87%89%E7%94%A81.jpg" width="551" height="150"/>
-</div>
+<p align="center">
+<img width="551" height="150" src="https://raw.githubusercontent.com/zouxing/DLbMODfVS/master/markdown/%E6%87%89%E7%94%A81.jpg" >
+</p>
 
-<center>
+<p align="center">
 圖二
-</center>
+</p>
 
 ## 實機運作方式
 
@@ -44,7 +44,7 @@
 * 輸入以下指令以執行訓練
 	* 請注意，使用GTX 1080ti 需要花費約8~9小時，如果您只需要重現我們的結果，可以直接跳至下一個步驟使用我們已經訓練好的權重進行測試。	
 
-  ```python  
+  ```
   python2 tools/train_net.py \
   --cfg experiments/fast_rcnn_R-50-FPN_1x.yaml \
   OUTPUT_DIR experiments/result
@@ -52,13 +52,13 @@
 
  		
 * 輸入以下指令以執行測試
-  ```python  
+  ```
   python2 tools/test_net.py \
   --cfg experiments/fast_rcnn_R-50-FPN_1x.yaml \
   TEST.WEIGHTS experiments/result/train/voc_2007_trainval/generalized_rcnn/model_final.pkl
   ```
 * 輸入以下指令以將測試結果視覺化
-  ```python  
+  ```
   python2 tools/visualize_results.py \
   --dataset voc_2007_test \
   --detections experiments/detections.pkl \
